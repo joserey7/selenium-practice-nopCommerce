@@ -11,5 +11,5 @@ import org.junit.runner.RunWith;
         tags = "@browser",
         plugin = {"pretty", "summary", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 )
-public class ArkonData_runner {
+public class nopCommerce_runner {
 }

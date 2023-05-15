@@ -1,5 +1,5 @@
 @browser
-Feature: ARKON Data Test
+Feature: nopCommerce Test
 
   Background: Register and login a user in nopCommerce
     Given the user navigates to "https://demo.nopcommerce.com/"

@@ -51,14 +51,8 @@ public class BaseTest {
         System.out.println("Database connection created");
     }
 
-//    @BeforeAll
-//    public void setUpReport(){
-//
-//    }
-
     @After("@browser")
     public void tearDownBrowser() {
-//        extent.flush();
         driver.close();
         driver.quit();
         System.out.println("TearDown successfully");
